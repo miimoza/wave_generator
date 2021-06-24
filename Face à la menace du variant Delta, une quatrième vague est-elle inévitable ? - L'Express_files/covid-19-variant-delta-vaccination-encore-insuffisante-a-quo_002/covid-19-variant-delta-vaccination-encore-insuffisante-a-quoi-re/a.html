@@ -1,0 +1,248 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script>var sdkScript = document.createElement('script');
+sdkScript.onload = function() {
+  if (typeof bntInit == 'function') bntInit(); else console.error("bnt: no bntInit()");
+  if (typeof bntStart == 'function') bntStart(); else console.warn("bnt: no bntStart()");
+}
+sdkScript.onerror = function() {
+  throw new Error("bnt: sdk load error");
+}
+sdkScript.src = 'https://s8t.teads.tv/sdk/2020.0.0';
+document.documentElement.firstChild.appendChild(sdkScript);
+var stylesNode = document.createElement('style');
+stylesNode.type = 'text/css';
+stylesNode.appendChild(document.createTextNode(".slideFromRight{animation-name:slideFromRight}@keyframes slideFromRight{from{transform:translate3d(100%, 0, 0);visibility:visible;opacity:0}to{transform:translate3d(0, 0, 0);opacity:1}}.slideFromLeft{animation-name:slideFromLeft}@keyframes slideFromLeft{from{transform:translate3d(-100%, 0, 0);visibility:visible;opacity:0}to{transform:translate3d(0, 0, 0);opacity:1}}.slideFromTop{animation-name:slideFromTop}@keyframes slideFromTop{from{transform:translate3d(0, -100%, 0);visibility:visible;opacity:0}to{transform:translate3d(0, 0, 0);opacity:1}}.slideFromBottom{animation-name:slideFromBottom}@keyframes slideFromBottom{from{transform:translate3d(0, 100%, 0);visibility:visible;opacity:0}to{transform:translate3d(0, 0, 0);opacity:1}}.horizontalFlipIn{animation-name:horizontalFlipIn}@keyframes horizontalFlipIn{from{transform:perspective(500px) rotate3d(1, 0, 0, 90deg);animation-timing-function:ease-in;opacity:0}to{transform:perspective(500px)}}.verticalFlipIn{animation-name:verticalFlipIn}@keyframes verticalFlipIn{from{transform:perspective(500px) rotate3d(0, 1, 0, 90deg);animation-timing-function:ease-in;opacity:0}to{transform:perspective(500px)}}.fadeIn{animation-name:fadeIn}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.zoomIn{animation-name:zoomIn}@keyframes zoomIn{from{opacity:0;transform:scale3d(0.3, 0.3, 0.3)}to{opacity:1}}.slideToRight{animation-name:slideToRight}@keyframes slideToRight{from{transform:translate3d(0, 0, 0);opacity:1}to{transform:translate3d(100%, 0, 0);visibility:visible;opacity:0}}.slideToLeft{animation-name:slideToLeft}@keyframes slideToLeft{from{transform:translate3d(0, 0, 0);opacity:1}to{transform:translate3d(-100%, 0, 0);visibility:visible;opacity:0}}.slideToTop{animation-name:slideToTop}@keyframes slideToTop{from{transform:translate3d(0, 0, 0);opacity:1}to{transform:translate3d(0, -100%, 0);visibility:visible;opacity:0}}.slideToBottom{animation-name:slideToBottom}@keyframes slideToBottom{from{transform:translate3d(0, 0, 0);opacity:1}to{transform:translate3d(0, 100%, 0);visibility:visible;opacity:0}}.horizontalFlipOut{animation-name:horizontalFlipOut}@keyframes horizontalFlipOut{from{transform:perspective(500px)}to{transform:perspective(500px) rotate3d(1, 0, 0, 90deg);animation-timing-function:ease-in;opacity:0}}.verticalFlipOut{animation-name:verticalFlipOut}@keyframes verticalFlipOut{from{transform:perspective(500px)}to{transform:perspective(500px) rotate3d(0, 1, 0, 90deg);animation-timing-function:ease-in;opacity:0}}.fadeOut{animation-name:fadeOut}@keyframes fadeOut{from{opacity:1}to{opacity:0}}.zoomOut{animation-name:zoomOut}@keyframes zoomOut{from{opacity:1}to{opacity:0;transform:scale3d(0.3, 0.3, 0.3)}}/*# sourceMappingURL=animations.css.map */\n"));
+document.documentElement.firstChild.appendChild(stylesNode);
+var VAST_PLAYER = 'https://s8t.teads.tv/format/2020.0.0'
+function bntInit() {
+bnt.LIBRARY.icon_black_svg = {
+  "id": "icon_black_svg",
+  "link": "https://s8t.teads.tv/creative-6753877076748278/iconblack-1595860094537.svg",
+  "name": "icon-black.svg",
+  "size": 8628,
+  "nature": "svg",
+  "created": "2021-05-31T14:39:05.731Z",
+  "updated": "2021-05-31T14:39:05.731Z",
+  "external": false,
+  "filename": "iconblack-1595860094537.svg"
+};;
+bnt.LIBRARY.Endscreen_L_jpg = {
+  "id": "Endscreen_L_jpg",
+  "link": "https://s8t.teads.tv/creative-6753877076748278/endscreen_l-1622472871974.jpg",
+  "name": "Endscreen_L.jpg",
+  "size": 105145,
+  "nature": "image",
+  "created": "2021-05-31T14:54:32.384Z",
+  "updated": "2021-05-31T14:54:32.384Z",
+  "external": false,
+  "filename": "endscreen_l-1622472871974.jpg"
+};;
+bnt.ASSET_VERSIONS.Endscreen_L_jpg = {
+  "20": "https://s8t.teads.tv/creative-6753877076748278/endscreen_l-1622472871974.20.webp",
+  "40": "https://s8t.teads.tv/creative-6753877076748278/endscreen_l-1622472871974.40.webp",
+  "80": "https://s8t.teads.tv/creative-6753877076748278/endscreen_l-1622472871974.80.webp",
+  "160": "https://s8t.teads.tv/creative-6753877076748278/endscreen_l-1622472871974.160.webp",
+  "320": "https://s8t.teads.tv/creative-6753877076748278/endscreen_l-1622472871974.320.webp",
+  "640": "https://s8t.teads.tv/creative-6753877076748278/endscreen_l-1622472871974.640.webp",
+  "1280": "https://s8t.teads.tv/creative-6753877076748278/endscreen_l-1622472871974.1280.webp",
+  "fallback": "https://s8t.teads.tv/creative-6753877076748278/endscreen_l-1622472871974.640.jpg"
+};
+bnt.LIBRARY.cta_ENDSCREEN_png = {
+  "id": "cta_ENDSCREEN_png",
+  "link": "https://s8t.teads.tv/creative-6753877076748278/cta_endscreen-1595844886307.png",
+  "name": "cta_ENDSCREEN.png",
+  "size": 5329,
+  "nature": "image",
+  "created": "2021-05-31T14:39:05.793Z",
+  "updated": "2021-05-31T14:39:05.793Z",
+  "external": false,
+  "filename": "cta_endscreen-1595844886307.png"
+};;
+bnt.ASSET_VERSIONS.cta_ENDSCREEN_png = {
+  "18": "https://s8t.teads.tv/creative-6753877076748278/cta_endscreen-1595844886307.18.webp",
+  "37": "https://s8t.teads.tv/creative-6753877076748278/cta_endscreen-1595844886307.37.webp",
+  "74": "https://s8t.teads.tv/creative-6753877076748278/cta_endscreen-1595844886307.74.webp",
+  "148": "https://s8t.teads.tv/creative-6753877076748278/cta_endscreen-1595844886307.148.webp",
+  "297": "https://s8t.teads.tv/creative-6753877076748278/cta_endscreen-1595844886307.297.webp",
+  "594": "https://s8t.teads.tv/creative-6753877076748278/cta_endscreen-1595844886307.594.webp",
+  "fallback": "https://s8t.teads.tv/creative-6753877076748278/cta_endscreen-1595844886307.594.png"
+};
+bnt.LIBRARY.Skin_Landscape_jpg = {
+  "id": "Skin_Landscape_jpg",
+  "link": "https://s8t.teads.tv/creative-6753877076748278/skin_landscape-1622734852338.jpg",
+  "name": "Skin_Landscape.jpg",
+  "size": 79493,
+  "nature": "image",
+  "created": "2021-06-03T15:40:52.674Z",
+  "updated": "2021-06-03T15:40:52.674Z",
+  "external": false,
+  "filename": "skin_landscape-1622734852338.jpg"
+};;
+bnt.ASSET_VERSIONS.Skin_Landscape_jpg = {
+  "20": "https://s8t.teads.tv/creative-6753877076748278/skin_landscape-1622734852338.20.webp",
+  "40": "https://s8t.teads.tv/creative-6753877076748278/skin_landscape-1622734852338.40.webp",
+  "80": "https://s8t.teads.tv/creative-6753877076748278/skin_landscape-1622734852338.80.webp",
+  "160": "https://s8t.teads.tv/creative-6753877076748278/skin_landscape-1622734852338.160.webp",
+  "320": "https://s8t.teads.tv/creative-6753877076748278/skin_landscape-1622734852338.320.webp",
+  "640": "https://s8t.teads.tv/creative-6753877076748278/skin_landscape-1622734852338.640.webp",
+  "1280": "https://s8t.teads.tv/creative-6753877076748278/skin_landscape-1622734852338.1280.webp",
+  "fallback": "https://s8t.teads.tv/creative-6753877076748278/skin_landscape-1622734852338.640.jpg"
+};
+bnt.LIBRARY.Light_CREDIT_AUTO_30s_mp4 = {
+  "id": "Light_CREDIT_AUTO_30s_mp4",
+  "link": "https://s8t.teads.tv/creative-6753877076748278/light_credit_auto_30s-1622471988048.mp4",
+  "name": "Light_CREDIT_AUTO_30s.mp4",
+  "size": 3095073,
+  "nature": "video",
+  "created": "2021-05-31T14:39:54.525Z",
+  "updated": "2021-05-31T14:39:54.525Z",
+  "external": false,
+  "filename": "light_credit_auto_30s-1622471988048.mp4"
+};;
+bnt.ASSET_VERSIONS.Light_CREDIT_AUTO_30s_mp4 = {
+  "mp4_1536k": "https://s8t.teads.tv/creative-6753877076748278/light_credit_auto_30s-1622471988048.high.mp4",
+  "mp4_768k": "https://s8t.teads.tv/creative-6753877076748278/light_credit_auto_30s-1622471988048.low.mp4"
+};
+
+uid = -1;
+cid = "6753877076748278";
+
+creative = bnt.unmarshall([{"ctor":"Creative","paths":[[]],"props":{}},{"ctor":"Array","paths":[["screens"]],"props":{}},{"ctor":"Screen","paths":[["screens","0"]],"props":{"name":"Screen1"}},{"ctor":"Array","paths":[["screens","0","customLoads"]],"props":{}},{"ctor":"Array","paths":[["screens","0","eos"]],"props":{}},{"ctor":"ElementOnScreen","paths":[["screens","0","eos","0"]],"props":{}},{"ctor":"Video","paths":[["screens","0","eos","0","element"]],"props":{"elementId":"Video1"}},{"ctor":"Map","paths":[["screens","0","eos","0","element","configs"]],"props":{}},{"ctor":"StateHash","paths":[["screens","0","eos","0","element","configs","hashFn"]],"props":{}},{"ctor":"Object","paths":[["screens","0","eos","0","element","configs","store"]],"props":{}},{"ctor":"Entry","paths":[["screens","0","eos","0","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224"]],"props":{}},{"ctor":"State","paths":[["screens","0","eos","0","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","k"],["screens","0","eos","0","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","k"],["screens","0","eos","1","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","k"],["screens","0","eos","1","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","k"],["screens","0","eos","2","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","k"],["screens","0","eos","2","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","k"],["screens","0","interactions","0","_actionParameters","0","eos","0","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","k"],["screens","0","interactions","0","_actionParameters","0","eos","0","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","k"]],"props":{}},{"ctor":"Canvas","paths":[["screens","0","eos","0","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","k","canvas"],["canvases","0"]],"props":{"uuid":"7a108901-fc27-aa88-f52f-67b893f04060"}},{"ctor":"CanvasConfig","paths":[["screens","0","eos","0","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","k","canvas","config"]],"props":{"name":"Main canvas","width":1280,"height":720}},{"ctor":"Segment","paths":[["screens","0","eos","0","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","k","segment"],["segments","0"]],"props":{"uuid":"1ac1b089-01b0-5b6f-10fb-a1555b938224"}},{"ctor":"Array","paths":[["screens","0","eos","0","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","k","segment","signalHolders"]],"props":{}},{"ctor":"SegmentConfig","paths":[["screens","0","eos","0","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","k","segment","config"]],"props":{"name":"Default segment","readonly":true}},{"ctor":"VideoConfig","paths":[["screens","0","eos","0","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v"]],"props":{"src":"asset://Light_CREDIT_AUTO_30s_mp4","mute":false,"cover":"","width":920,"height":518,"visible":true,"autoplay":true,"panActive":false,"coverWidth":0,"usePointer":true,"videoWidth":960,"coverHeight":0,"videoHeight":540,"useGyroscope":true,"videoDuration":30.059,"preserveAspectRatio":true}},{"ctor":"VideoConfig","paths":[["screens","0","eos","0","element","baseConfig"]],"props":{"src":"","mute":false,"cover":"","width":320,"height":180,"visible":true,"autoplay":true,"panActive":false,"coverWidth":0,"usePointer":true,"videoWidth":0,"coverHeight":0,"videoHeight":0,"useGyroscope":true,"videoDuration":0,"preserveAspectRatio":false}},{"ctor":"Map","paths":[["screens","0","eos","0","configs"]],"props":{}},{"ctor":"StateHash","paths":[["screens","0","eos","0","configs","hashFn"]],"props":{}},{"ctor":"Object","paths":[["screens","0","eos","0","configs","store"]],"props":{}},{"ctor":"Entry","paths":[["screens","0","eos","0","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224"]],"props":{}},{"ctor":"ElementOnScreenConfig","paths":[["screens","0","eos","0","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v"]],"props":{"x":49,"y":174,"zIndex":0}},{"ctor":"AnimationConfig","paths":[["screens","0","eos","0","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v","onHide"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"AnimationConfig","paths":[["screens","0","eos","0","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v","onShow"]],"props":{"ease":"linear","name":"fadeIn","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"ElementOnScreenConfig","paths":[["screens","0","eos","0","baseConfig"]],"props":{"x":0,"y":0,"zIndex":0}},{"ctor":"AnimationConfig","paths":[["screens","0","eos","0","baseConfig","onHide"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"AnimationConfig","paths":[["screens","0","eos","0","baseConfig","onShow"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"Array","paths":[["screens","0","eos","0","interactions"]],"props":{}},{"ctor":"Interaction","paths":[["screens","0","eos","0","interactions","0"]],"props":{"_action":"clickthru","fireOnce":false,"triggerName":"onclick","triggerFilter":""}},{"ctor":"Array","paths":[["screens","0","eos","0","interactions","0","_actionParameters"]],"props":{"0":"https://www.matmut.fr/epargne-credit/credit-auto-moto?xtor=AD-432-[20210604]-[reach_landscape30]-[video]-[teads]&utm_source=teads&utm_medium=video&utm_campaign=credit_auto&utm_content=reach_landscape30"}},{"ctor":"Object","paths":[["screens","0","eos","0","interactions","0","transition"]],"props":{"in":"","out":"","name":""}},{"ctor":"ElementOnScreen","paths":[["screens","0","eos","1"]],"props":{}},{"ctor":"Hotspot","paths":[["screens","0","eos","1","element"]],"props":{"elementId":"SKIN_CTA"}},{"ctor":"Map","paths":[["screens","0","eos","1","element","configs"]],"props":{}},{"ctor":"StateHash","paths":[["screens","0","eos","1","element","configs","hashFn"]],"props":{}},{"ctor":"Object","paths":[["screens","0","eos","1","element","configs","store"]],"props":{}},{"ctor":"Entry","paths":[["screens","0","eos","1","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224"]],"props":{}},{"ctor":"HotspotConfig","paths":[["screens","0","eos","1","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v"]],"props":{"angle":0,"width":260,"height":79,"radius":0,"visible":true,"preserveAspectRatio":false}},{"ctor":"HotspotConfig","paths":[["screens","0","eos","1","element","baseConfig"]],"props":{"angle":0,"width":100,"height":100,"radius":0,"visible":true,"preserveAspectRatio":false}},{"ctor":"Map","paths":[["screens","0","eos","1","configs"]],"props":{}},{"ctor":"StateHash","paths":[["screens","0","eos","1","configs","hashFn"]],"props":{}},{"ctor":"Object","paths":[["screens","0","eos","1","configs","store"]],"props":{}},{"ctor":"Entry","paths":[["screens","0","eos","1","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224"]],"props":{}},{"ctor":"ElementOnScreenConfig","paths":[["screens","0","eos","1","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v"]],"props":{"x":1006,"y":468,"zIndex":0}},{"ctor":"AnimationConfig","paths":[["screens","0","eos","1","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v","onHide"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"AnimationConfig","paths":[["screens","0","eos","1","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v","onShow"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"ElementOnScreenConfig","paths":[["screens","0","eos","1","baseConfig"]],"props":{"x":0,"y":0,"zIndex":0}},{"ctor":"AnimationConfig","paths":[["screens","0","eos","1","baseConfig","onHide"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"AnimationConfig","paths":[["screens","0","eos","1","baseConfig","onShow"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"Array","paths":[["screens","0","eos","1","interactions"]],"props":{}},{"ctor":"Interaction","paths":[["screens","0","eos","1","interactions","0"]],"props":{"_action":"clickthru","fireOnce":false,"triggerName":"onclick","triggerFilter":""}},{"ctor":"Array","paths":[["screens","0","eos","1","interactions","0","_actionParameters"]],"props":{"0":"https://www.matmut.fr/epargne-credit/credit-auto-moto?xtor=AD-432-[20210604]-[reach_landscape30]-[video]-[teads]&utm_source=teads&utm_medium=video&utm_campaign=credit_auto&utm_content=reach_landscape30"}},{"ctor":"Object","paths":[["screens","0","eos","1","interactions","0","transition"]],"props":{"in":"","out":"","name":""}},{"ctor":"ElementOnScreen","paths":[["screens","0","eos","2"]],"props":{}},{"ctor":"Image","paths":[["screens","0","eos","2","element"]],"props":{"elementId":"SKIN"}},{"ctor":"Map","paths":[["screens","0","eos","2","element","configs"]],"props":{}},{"ctor":"StateHash","paths":[["screens","0","eos","2","element","configs","hashFn"]],"props":{}},{"ctor":"Object","paths":[["screens","0","eos","2","element","configs","store"]],"props":{}},{"ctor":"Entry","paths":[["screens","0","eos","2","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224"]],"props":{}},{"ctor":"ImageConfig","paths":[["screens","0","eos","2","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v"]],"props":{"src":"asset://Skin_Landscape_jpg","angle":0,"width":1280,"height":720,"visible":true,"panActive":false,"hoverImage":"","imageWidth":1280,"usePointer":true,"imageHeight":720,"useGyroscope":true,"preserveAspectRatio":false}},{"ctor":"ImageConfig","paths":[["screens","0","eos","2","element","baseConfig"]],"props":{"src":"","angle":0,"width":100,"height":100,"visible":true,"panActive":false,"hoverImage":"","imageWidth":0,"usePointer":true,"imageHeight":0,"useGyroscope":true,"preserveAspectRatio":false}},{"ctor":"Map","paths":[["screens","0","eos","2","configs"]],"props":{}},{"ctor":"StateHash","paths":[["screens","0","eos","2","configs","hashFn"]],"props":{}},{"ctor":"Object","paths":[["screens","0","eos","2","configs","store"]],"props":{}},{"ctor":"Entry","paths":[["screens","0","eos","2","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224"]],"props":{}},{"ctor":"ElementOnScreenConfig","paths":[["screens","0","eos","2","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v"]],"props":{"x":0,"y":0,"zIndex":0}},{"ctor":"AnimationConfig","paths":[["screens","0","eos","2","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v","onHide"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"AnimationConfig","paths":[["screens","0","eos","2","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v","onShow"]],"props":{"ease":"linear","name":"fadeIn","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"ElementOnScreenConfig","paths":[["screens","0","eos","2","baseConfig"]],"props":{"x":0,"y":0,"zIndex":0}},{"ctor":"AnimationConfig","paths":[["screens","0","eos","2","baseConfig","onHide"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"AnimationConfig","paths":[["screens","0","eos","2","baseConfig","onShow"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"Array","paths":[["screens","0","eos","2","interactions"]],"props":{}},{"ctor":"Interaction","paths":[["screens","0","eos","2","interactions","0"]],"props":{"_action":"clickthru","fireOnce":false,"triggerName":"onclick","triggerFilter":""}},{"ctor":"Array","paths":[["screens","0","eos","2","interactions","0","_actionParameters"]],"props":{"0":"https://www.matmut.fr/epargne-credit/credit-auto-moto?xtor=AD-432-[20210604]-[reach_landscape30]-[video]-[teads]&utm_source=teads&utm_medium=video&utm_campaign=credit_auto&utm_content=reach_landscape30"}},{"ctor":"Object","paths":[["screens","0","eos","2","interactions","0","transition"]],"props":{"in":"","out":"","name":""}},{"ctor":"Map","paths":[["screens","0","indexMapping"]],"props":{}},{"ctor":"ElementHash","paths":[["screens","0","indexMapping","hashFn"]],"props":{}},{"ctor":"Object","paths":[["screens","0","indexMapping","store"]],"props":{}},{"ctor":"Array","paths":[["screens","0","interactions"]],"props":{}},{"ctor":"Interaction","paths":[["screens","0","interactions","0"]],"props":{"_action":"switchTo","fireOnce":false,"triggerName":"onend","triggerFilter":""}},{"ctor":"Array","paths":[["screens","0","interactions","0","_actionParameters"]],"props":{}},{"ctor":"Screen","paths":[["screens","0","interactions","0","_actionParameters","0"],["screens","1"]],"props":{"name":"Screen2"}},{"ctor":"Array","paths":[["screens","0","interactions","0","_actionParameters","0","customLoads"]],"props":{}},{"ctor":"Array","paths":[["screens","0","interactions","0","_actionParameters","0","eos"]],"props":{}},{"ctor":"ElementOnScreen","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0"]],"props":{}},{"ctor":"Image","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","element"]],"props":{"elementId":"ENDSCREEN"}},{"ctor":"Map","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","element","configs"]],"props":{}},{"ctor":"StateHash","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","element","configs","hashFn"]],"props":{}},{"ctor":"Object","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","element","configs","store"]],"props":{}},{"ctor":"Entry","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224"]],"props":{}},{"ctor":"ImageConfig","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","element","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v"]],"props":{"src":"asset://Endscreen_L_jpg","angle":0,"width":1280,"height":720,"visible":true,"panActive":false,"hoverImage":"","imageWidth":1280,"usePointer":true,"imageHeight":720,"useGyroscope":true,"preserveAspectRatio":false}},{"ctor":"ImageConfig","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","element","baseConfig"]],"props":{"src":"","angle":0,"width":100,"height":100,"visible":true,"panActive":false,"hoverImage":"","imageWidth":0,"usePointer":true,"imageHeight":0,"useGyroscope":true,"preserveAspectRatio":false}},{"ctor":"Map","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","configs"]],"props":{}},{"ctor":"StateHash","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","configs","hashFn"]],"props":{}},{"ctor":"Object","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","configs","store"]],"props":{}},{"ctor":"Entry","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224"]],"props":{}},{"ctor":"ElementOnScreenConfig","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v"]],"props":{"x":0,"y":0,"zIndex":0}},{"ctor":"AnimationConfig","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v","onHide"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"AnimationConfig","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","configs","store","7a108901-fc27-aa88-f52f-67b893f04060_1ac1b089-01b0-5b6f-10fb-a1555b938224","v","onShow"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"ElementOnScreenConfig","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","baseConfig"]],"props":{"x":0,"y":0,"zIndex":0}},{"ctor":"AnimationConfig","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","baseConfig","onHide"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"AnimationConfig","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","baseConfig","onShow"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"Array","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","interactions"]],"props":{}},{"ctor":"Interaction","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","interactions","0"]],"props":{"_action":"clickthru","fireOnce":false,"triggerName":"onclick","triggerFilter":""}},{"ctor":"Array","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","interactions","0","_actionParameters"]],"props":{"0":"https://www.matmut.fr/epargne-credit/credit-auto-moto?xtor=AD-432-[20210604]-[reach_landscape30]-[video]-[teads]&utm_source=teads&utm_medium=video&utm_campaign=credit_auto&utm_content=reach_landscape30"}},{"ctor":"Object","paths":[["screens","0","interactions","0","_actionParameters","0","eos","0","interactions","0","transition"]],"props":{"in":"","out":"","name":""}},{"ctor":"Map","paths":[["screens","0","interactions","0","_actionParameters","0","indexMapping"]],"props":{}},{"ctor":"ElementHash","paths":[["screens","0","interactions","0","_actionParameters","0","indexMapping","hashFn"]],"props":{}},{"ctor":"Object","paths":[["screens","0","interactions","0","_actionParameters","0","indexMapping","store"]],"props":{}},{"ctor":"Array","paths":[["screens","0","interactions","0","_actionParameters","0","interactions"]],"props":{}},{"ctor":"ScreenConfig","paths":[["screens","0","interactions","0","_actionParameters","0","config"]],"props":{"duration":0}},{"ctor":"AnimationConfig","paths":[["screens","0","interactions","0","_actionParameters","0","config","onHide"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"AnimationConfig","paths":[["screens","0","interactions","0","_actionParameters","0","config","onShow"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"Object","paths":[["screens","0","interactions","0","transition"]],"props":{"in":"fadeIn","out":"fadeOut","name":"fade","duration":0.4}},{"ctor":"ScreenConfig","paths":[["screens","0","config"]],"props":{"duration":0}},{"ctor":"AnimationConfig","paths":[["screens","0","config","onHide"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"AnimationConfig","paths":[["screens","0","config","onShow"]],"props":{"ease":"linear","name":"","delay":0,"repeat":1,"_duration":0.4}},{"ctor":"Array","paths":[["canvases"]],"props":{}},{"ctor":"Array","paths":[["segments"]],"props":{}},{"ctor":"Map","paths":[["screensToPreload"]],"props":{}},{"ctor":"ScreenHash","paths":[["screensToPreload","hashFn"]],"props":{}},{"ctor":"Object","paths":[["screensToPreload","store"]],"props":{}},{"ctor":"CreativeConfig","paths":[["config"]],"props":{}},{"ctor":"Object","paths":[["config","options"]],"props":{}},{"ctor":"Code","paths":[["code"]],"props":{"js":"var soundConfig = {\n    left: \"\", //Position on X axis. Leave just the quotes for default\n    top: \"\", //Position on Y axis. Leave just the quotes for default\n    customIcon: \"icon_black_svg\", //Name of the svg file goes between the quotes. Leave just the quotes if you don't wish to change sound color\n    screensToHideSoundIcon: [Screen2], //Name of the screens the sound icon should not be displayed; Separate them with comma. Leave it empty for default\n    videosToShowSoundIconOn: [Video1] //Name of the Video the sound icon should be displayed; Separate them with comma. Leave it empty for default\n}\n\n/******************************************\n * Setup sound Icon \n *****************************************/\nvar transform = \"\"\nvar webkitTransform = \"\"\n\nif (soundConfig.left.length) {\n    soundConfig.left =  \"right:\" + (((creative.canvases[0].config.width - soundConfig.left) / creative.canvases[0].config.width) * 100) + \"% !important;\"\n    transform += \"translateX(50%) \"\n    webkitTransform += \"translateX(50%) \" \n} else soundConfig.left = \"\";\n\nif (soundConfig.top.length) {\n    soundConfig.top = \"bottom:\" + (((creative.canvases[0].config.height - soundConfig.top) / creative.canvases[0].config.height) * 100) + \"% !important;\";\n        transform += \"translateY(50%) \"\n    webkitTransform += \"translateY(50%) \" \n} else soundConfig.top = \"\";\n\nif (transform.length) {\n    soundConfig.transform = \"transform: \" + transform + \" !important;\"\n    soundConfig.webkitTransform = \"-webkit-transform: \" + webkitTransform + \" !important;\"\n} else {\n    soundConfig.transform = \"\";\n    soundConfig.webkitTransform = \"\";\n}\n\nfunction updateSoundIcon() {\n    return \".teads-ui-component-soundbutton {\" +\n        soundConfig.left + \n        soundConfig.top +\n        soundConfig.transform + \n        soundConfig.webkitTransform +\n    \"}\"\n}\n\nvar soundIconColor = \"\";\nif (soundConfig.customIcon.length) {\n    soundIconColor = \".icon-muteoff, .icon-muteon { background-image: url(\" + bnt.LIBRARY[soundConfig.customIcon].link + \")!important;}\"\n}\n\n/******************************************\n * Check Player Api and Update sound icon\n *****************************************/\nbnt.TeadsPlayerAddons.apiProxy.addObserver(function (api) {\n    if (api) {\n        creative.screens.forEach(function (screen) {\n            screen.onshow.addObserver(function () {\n                if (soundConfig.screensToHideSoundIcon.indexOf(screen) != -1) {\n                    bnt.TeadsPlayerAddons.callPlayerApiMethod('customizeUI', [\".teads-ui-component-soundbutton {right: -2000px !important;}\"])\n                } else {\n                    bnt.TeadsPlayerAddons.callPlayerApiMethod('customizeUI', [\n                        updateSoundIcon() + soundIconColor\n                    ]);\n                }\n            })\n        })\n\n        if (soundConfig.videosToShowSoundIconOn.length) {\n\n            soundConfig.videosToShowSoundIconOn.forEach(function (vid) {\n                vid.onplay.addObserver(function () {\n                    bnt.TeadsPlayerAddons.callPlayerApiMethod('customizeUI', [\n                        updateSoundIcon() + soundIconColor\n                    ]);\n                })\n                vid.onend.addObserver(function () {\n                    bnt.TeadsPlayerAddons.callPlayerApiMethod('customizeUI', [\".teads-ui-component-soundbutton {right: -2000px !important;}\"])\n                })\n            })\n        }\n    }\n})","css":""}}]) ;
+bnt.QueryParams.params = {};
+
+adController = new bnt.AdController(creative);
+
+Video1 = creative.elements.get("Video1");
+SKIN_CTA = creative.elements.get("SKIN_CTA");
+SKIN = creative.elements.get("SKIN");
+ENDSCREEN = creative.elements.get("ENDSCREEN");
+
+Video1.onclick
+	.addObserver(function () {
+		creative.getController().clickthru("https://www.matmut.fr/epargne-credit/credit-auto-moto?xtor=AD-432-[20210604]-[reach_landscape30]-[video]-[teads]&utm_source=teads&utm_medium=video&utm_campaign=credit_auto&utm_content=reach_landscape30");
+		bntTracking.trackEvent("Video1: onclick", null);
+	});
+SKIN_CTA.onclick
+	.addObserver(function () {
+		creative.getController().clickthru("https://www.matmut.fr/epargne-credit/credit-auto-moto?xtor=AD-432-[20210604]-[reach_landscape30]-[video]-[teads]&utm_source=teads&utm_medium=video&utm_campaign=credit_auto&utm_content=reach_landscape30");
+		bntTracking.trackEvent("SKIN_CTA: onclick", null);
+	});
+SKIN.onclick
+	.addObserver(function () {
+		creative.getController().clickthru("https://www.matmut.fr/epargne-credit/credit-auto-moto?xtor=AD-432-[20210604]-[reach_landscape30]-[video]-[teads]&utm_source=teads&utm_medium=video&utm_campaign=credit_auto&utm_content=reach_landscape30");
+		bntTracking.trackEvent("SKIN: onclick", null);
+	});
+ENDSCREEN.onclick
+	.addObserver(function () {
+		creative.getController().clickthru("https://www.matmut.fr/epargne-credit/credit-auto-moto?xtor=AD-432-[20210604]-[reach_landscape30]-[video]-[teads]&utm_source=teads&utm_medium=video&utm_campaign=credit_auto&utm_content=reach_landscape30");
+		bntTracking.trackEvent("ENDSCREEN: onclick", null);
+	});
+
+Screen1 = creative.screens[0];
+Screen2 = creative.screens[1];
+
+Screen1.onend
+	.addObserver(function () {
+		creative.getController().renderer.switchTo("Screen2", {
+  "in": "fadeIn",
+  "out": "fadeOut",
+  "name": "fade",
+  "duration": 0.4
+});
+	});
+
+
+trkConfig = { uid: uid, cid: cid };
+bntTracking = new bnt.TrackingUnit(trkConfig);
+bntTracking.trackCreative(creative);
+bntTracking.trackVideoQuartiles(Video1, "Video1");
+            
+
+
+
+var soundConfig = {
+    left: "", //Position on X axis. Leave just the quotes for default
+    top: "", //Position on Y axis. Leave just the quotes for default
+    customIcon: "icon_black_svg", //Name of the svg file goes between the quotes. Leave just the quotes if you don't wish to change sound color
+    screensToHideSoundIcon: [Screen2], //Name of the screens the sound icon should not be displayed; Separate them with comma. Leave it empty for default
+    videosToShowSoundIconOn: [Video1] //Name of the Video the sound icon should be displayed; Separate them with comma. Leave it empty for default
+}
+
+/******************************************
+ * Setup sound Icon 
+ *****************************************/
+var transform = ""
+var webkitTransform = ""
+
+if (soundConfig.left.length) {
+    soundConfig.left =  "right:" + (((creative.canvases[0].config.width - soundConfig.left) / creative.canvases[0].config.width) * 100) + "% !important;"
+    transform += "translateX(50%) "
+    webkitTransform += "translateX(50%) " 
+} else soundConfig.left = "";
+
+if (soundConfig.top.length) {
+    soundConfig.top = "bottom:" + (((creative.canvases[0].config.height - soundConfig.top) / creative.canvases[0].config.height) * 100) + "% !important;";
+        transform += "translateY(50%) "
+    webkitTransform += "translateY(50%) " 
+} else soundConfig.top = "";
+
+if (transform.length) {
+    soundConfig.transform = "transform: " + transform + " !important;"
+    soundConfig.webkitTransform = "-webkit-transform: " + webkitTransform + " !important;"
+} else {
+    soundConfig.transform = "";
+    soundConfig.webkitTransform = "";
+}
+
+function updateSoundIcon() {
+    return ".teads-ui-component-soundbutton {" +
+        soundConfig.left + 
+        soundConfig.top +
+        soundConfig.transform + 
+        soundConfig.webkitTransform +
+    "}"
+}
+
+var soundIconColor = "";
+if (soundConfig.customIcon.length) {
+    soundIconColor = ".icon-muteoff, .icon-muteon { background-image: url(" + bnt.LIBRARY[soundConfig.customIcon].link + ")!important;}"
+}
+
+/******************************************
+ * Check Player Api and Update sound icon
+ *****************************************/
+bnt.TeadsPlayerAddons.apiProxy.addObserver(function (api) {
+    if (api) {
+        creative.screens.forEach(function (screen) {
+            screen.onshow.addObserver(function () {
+                if (soundConfig.screensToHideSoundIcon.indexOf(screen) != -1) {
+                    bnt.TeadsPlayerAddons.callPlayerApiMethod('customizeUI', [".teads-ui-component-soundbutton {right: -2000px !important;}"])
+                } else {
+                    bnt.TeadsPlayerAddons.callPlayerApiMethod('customizeUI', [
+                        updateSoundIcon() + soundIconColor
+                    ]);
+                }
+            })
+        })
+
+        if (soundConfig.videosToShowSoundIconOn.length) {
+
+            soundConfig.videosToShowSoundIconOn.forEach(function (vid) {
+                vid.onplay.addObserver(function () {
+                    bnt.TeadsPlayerAddons.callPlayerApiMethod('customizeUI', [
+                        updateSoundIcon() + soundIconColor
+                    ]);
+                })
+                vid.onend.addObserver(function () {
+                    bnt.TeadsPlayerAddons.callPlayerApiMethod('customizeUI', [".teads-ui-component-soundbutton {right: -2000px !important;}"])
+                })
+            })
+        }
+    }
+})
+
+}</script><script src="a_data/2020.js"></script><style type="text/css">.slideFromRight{animation-name:slideFromRight}@keyframes slideFromRight{from{transform:translate3d(100%, 0, 0);visibility:visible;opacity:0}to{transform:translate3d(0, 0, 0);opacity:1}}.slideFromLeft{animation-name:slideFromLeft}@keyframes slideFromLeft{from{transform:translate3d(-100%, 0, 0);visibility:visible;opacity:0}to{transform:translate3d(0, 0, 0);opacity:1}}.slideFromTop{animation-name:slideFromTop}@keyframes slideFromTop{from{transform:translate3d(0, -100%, 0);visibility:visible;opacity:0}to{transform:translate3d(0, 0, 0);opacity:1}}.slideFromBottom{animation-name:slideFromBottom}@keyframes slideFromBottom{from{transform:translate3d(0, 100%, 0);visibility:visible;opacity:0}to{transform:translate3d(0, 0, 0);opacity:1}}.horizontalFlipIn{animation-name:horizontalFlipIn}@keyframes horizontalFlipIn{from{transform:perspective(500px) rotate3d(1, 0, 0, 90deg);animation-timing-function:ease-in;opacity:0}to{transform:perspective(500px)}}.verticalFlipIn{animation-name:verticalFlipIn}@keyframes verticalFlipIn{from{transform:perspective(500px) rotate3d(0, 1, 0, 90deg);animation-timing-function:ease-in;opacity:0}to{transform:perspective(500px)}}.fadeIn{animation-name:fadeIn}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.zoomIn{animation-name:zoomIn}@keyframes zoomIn{from{opacity:0;transform:scale3d(0.3, 0.3, 0.3)}to{opacity:1}}.slideToRight{animation-name:slideToRight}@keyframes slideToRight{from{transform:translate3d(0, 0, 0);opacity:1}to{transform:translate3d(100%, 0, 0);visibility:visible;opacity:0}}.slideToLeft{animation-name:slideToLeft}@keyframes slideToLeft{from{transform:translate3d(0, 0, 0);opacity:1}to{transform:translate3d(-100%, 0, 0);visibility:visible;opacity:0}}.slideToTop{animation-name:slideToTop}@keyframes slideToTop{from{transform:translate3d(0, 0, 0);opacity:1}to{transform:translate3d(0, -100%, 0);visibility:visible;opacity:0}}.slideToBottom{animation-name:slideToBottom}@keyframes slideToBottom{from{transform:translate3d(0, 0, 0);opacity:1}to{transform:translate3d(0, 100%, 0);visibility:visible;opacity:0}}.horizontalFlipOut{animation-name:horizontalFlipOut}@keyframes horizontalFlipOut{from{transform:perspective(500px)}to{transform:perspective(500px) rotate3d(1, 0, 0, 90deg);animation-timing-function:ease-in;opacity:0}}.verticalFlipOut{animation-name:verticalFlipOut}@keyframes verticalFlipOut{from{transform:perspective(500px)}to{transform:perspective(500px) rotate3d(0, 1, 0, 90deg);animation-timing-function:ease-in;opacity:0}}.fadeOut{animation-name:fadeOut}@keyframes fadeOut{from{opacity:1}to{opacity:0}}.zoomOut{animation-name:zoomOut}@keyframes zoomOut{from{opacity:1}to{opacity:0;transform:scale3d(0.3, 0.3, 0.3)}}/*# sourceMappingURL=animations.css.map */
+</style><script>
+function bntStart() { bntIframeLoaded() }
+var bntAdParameters = {};
+			</script></head><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style type="text/css" id="dark-mode-custom-style" lang="en"></style><style type="text/css" id="dark-mode-native-style" lang="en"></style><body></body></html>
